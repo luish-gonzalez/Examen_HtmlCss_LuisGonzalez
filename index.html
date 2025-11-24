@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundación Patitas Felices</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Encabezado principal -->
+  <header class="site-header">
+    <div class="logo">
+      <a href="index.html">Patitas Felices</a>
+    </div>
+
+    <!-- Checkbox oculto que controla el menú -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+    <!-- Botón hamburguesa -->
+    <label for="menu-toggle" class="menu-toggle-label">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="sr-only">Abrir o cerrar menú de navegación</span>
+    </label>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="is-active">Home</a></li>
+        <li><a href="adopta.html">Adopta</a></li>
+        <li><a href="index.html#donaciones">Donaciones</a></li>
+        <li><a href="index.html#voluntariado">Voluntariado</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Banner / Hero principal -->
+    <section class="hero" id="inicio">
+      <div class="hero-contenido">
+        <p class="hero-etiqueta">Fundación sin ánimo de lucro</p>
+        <h1 class="hero-titulo">Fundación Patitas Felices</h1>
+        <p class="hero-slogan">
+          Rescatamos, cuidamos y encontramos hogares llenos de amor para perros y gatos en situación de vulnerabilidad.
+        </p>
+        <div class="hero-acciones">
+          <a href="adopta.html" class="btn btn-principal">Adopta</a>
+          <a href="#donaciones" class="btn btn-secundario">Conócenos</a>
+        </div>
+      </div>
+      <div class="hero-imagen">
+        <!-- Imagen ilustrativa, se mostrará con CSS -->
+        <img src="assets/img/hero-perrito-gatito.jpg" alt="Perro y gato rescatados por la fundación" />
+      </div>
+    </section>
+
+    <!-- Carrusel principal (CSS) -->
+    <section class="carousel-principal" aria-label="Galería principal de rescates">
+      <div class="carousel-inner">
+        <figure class="slide slide-1">
+          <img src="assets/img/carrusel-rescate-1.jpg" alt="Voluntarios rescatando un perro en la calle" />
+          <figcaption>Rescate y atención inmediata</figcaption>
+        </figure>
+
+        <figure class="slide slide-2">
+          <img src="assets/img/carrusel-rehabilitacion-2.jpg" alt="Perro en recuperación en la fundación" />
+          <figcaption>Rehabilitación y cuidado diario</figcaption>
+        </figure>
+
+        <figure class="slide slide-3">
+          <img src="assets/img/carrusel-adopcion-3.jpg" alt="Familia adoptando un perro" />
+          <figcaption>Adopciones responsables y acompañadas</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Secciones destacadas: Adopta / Donaciones / Voluntariado / Contacto -->
+    <section class="secciones-destacadas">
+          
+      <h2 class="secciones-titulo">¿Cómo puedes ayudar?</h2>
+
+      <div class="secciones-grid">
+        <article class="tarjeta-destacada">
+          <h3>Adopta</h3>
+          <p>Conoce a los perros y gatos que esperan un hogar definitivo lleno de cariño.</p>
+          <a href="adopta.html" class="btn btn-principal">Ver animales</a>
+        </article>
+
+        <article class="tarjeta-destacada" id="donaciones">
+          <h3>Donaciones</h3>
+          <p>Apoya con alimento, medicamentos o aportes económicos para sostener el refugio.</p>
+          <a href="contacto.html" class="btn btn-secundario">Quiero donar</a>
+        </article>
+
+        <article class="tarjeta-destacada" id="voluntariado">
+          <h3>Voluntariado</h3>
+          <p>Únete como voluntario para acompañar jornadas de rescate, limpieza y cuidado diario.</p>
+          <a href="contacto.html" class="btn btn-secundario">Ser voluntario</a>
+        </article>
+
+        <article class="tarjeta-destacada">
+          <h3>Contacto</h3>
+          <p>Escríbenos si tienes dudas, deseas reportar un caso o quieres más información.</p>
+          <a href="contacto.html" class="btn btn-secundario">Escríbenos</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Visión y Misión -->
+    <section class="vision-mision" aria-labelledby="titulo-vision-mision">
+      <h2 id="titulo-vision-mision" class="sr-only">Visión y Misión de la Fundación</h2>
+      <article class="bloque-vision">
+        <div class="vision-icono" aria-hidden="true">🌈</div>
+        <h3>Visión</h3>
+        <p>
+          Ser una fundación referente en la protección y bienestar animal, donde cada perro y gato rescatado tenga la
+          oportunidad de encontrar un hogar responsable y amoroso.
+        </p>
+      </article>
+      <article class="bloque-mision">
+        <div class="vision-icono" aria-hidden="true">🐾</div>
+        <h3>Misión</h3>
+        <p>
+          Rescatar, rehabilitar y reubicar animales en situación de abandono, promoviendo la adopción responsable, la
+          educación sobre tenencia responsable y el respeto por la vida animal en la comunidad.
+        </p>
+      </article>
+    </section>
+
+    <!-- Galería / Carrusel secundario -->
+    <section class="galeria-secundaria" aria-label="Galería de rescates y eventos">
+      <!-- Imágenes secundarias -->
+    </section>
+
+    <!-- Testimonios (opcional) -->
+    <section class="testimonios" aria-label="Testimonios de adoptantes y voluntarios">
+      <!-- Tarjetas de testimonios -->
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-fundacion">Fundación Patitas Felices</p>
+    <p class="footer-copy">© 2025 - Todos los derechos reservados</p>
+    <p class="footer-contacto">contacto@patitasfelices.org</p>
+    <p class="footer-dev">
+      Desarrollado por <a href="#" target="_blank" rel="noopener">Equipo Web Patitas</a>
+    </p>
+  </footer>
+</body>
+</html>
