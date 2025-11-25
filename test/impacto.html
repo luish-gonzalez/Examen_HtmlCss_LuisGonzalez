@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundación Patitas Felices - Adopta</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Encabezado principal -->
+  <header class="site-header">
+    <div class="logo">
+      <a href="index.html">Patitas Felices</a>
+    </div>
+
+    <!-- Checkbox oculto que controla el menú -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+    <!-- Botón hamburguesa -->
+    <label for="menu-toggle" class="menu-toggle-label">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="sr-only">Abrir o cerrar menú de navegación</span>
+    </label>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../adopta.html">Adopta</a></li>
+        <li><a href="../index.html#donaciones">Donaciones</a></li>
+        <li><a href="../index.html#voluntariado">Voluntariado</a></li>
+        <li><a href="../contacto.html">Contacto</a></li>
+        <li><a href="impacto.html" class="is-active">Nuestro impacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro-adopta">
+      <h1 class="catalogo-titulo">Nuestro Impacto</h1>
+      <h3 class="catalogo-descripcion">
+        Estas son los datos que respaldan nuestra ardua tarea de proteger la vida.
+      </h3>
+    </section>
+
+    <section class="catalogo-animales" aria-label="Catálogo de animales en adopción">
+      <div class="grid-animales">
+        <article class="tarjeta-animal">
+          <figure class="animal-imagen">
+            <img src="assets/img/rescate.jpg" alt="Rescatista con koala entrega a veterinaria" />
+          </figure>
+          <div class="animal-info">
+            <h1 class="catalogo-titulo">324</h1>
+            <h2 class="animal-nombre">Animales rescatados</h2>
+            <p class="animal-detalle">Rescates de animales en situaciones adversas</p>
+            <footer>Ultimos 12 meses</footer>
+          </div>
+        </article>
+
+        <article class="tarjeta-animal">
+          <figure class="animal-imagen">
+            <img src="assets/img/adopta.jpg" alt="Mujer mascota en brazos" />
+          </figure>
+          <div class="animal-info">
+            <h1 class="catalogo-titulo">289</h1>
+            <h2 class="animal-nombre">Animales reubicados/adoptados</h2>
+            <p class="animal-detalle">Animales en un lugar seguro</p>
+          </div>
+          <footer>Ultimos 12 meses</footer>
+        </article>
+
+        <article class="tarjeta-animal">
+          <figure class="animal-imagen">
+            <img src="assets/img/Voluntarios.jpg" alt="Voluntarios con animales en brazos" />
+          </figure>
+          <div class="animal-info">
+            <h1 class="catalogo-titulo">42</h1>
+            <h2 class="animal-nombre">Voluntarios activos</h2>
+            <p class="animal-detalle">Apasionados por el bienestar animal</p>
+          </div>
+          <footer>Ultimos 12 meses</footer>
+        </article>
+
+        <article class="tarjeta-animal">
+          <figure class="animal-imagen">
+            <img src="assets/img/eventos-rescate.jpg" alt="Encargado con niña acogiendo mascota" />
+          </figure>
+          <div class="animal-info">
+            <h1 class="catalogo-titulo">18</h1>
+            <h2 class="animal-nombre">Eventos organizados</h2>
+            <p class="animal-detalle">Puntos de encuentro entre los animales y quienes los aman</p>
+          </div>
+          <footer>Ultimos 12 meses</footer>
+        </article>        
+      </div>
+    </section>
+
+    <section class="hero" id="inicio">
+      <div class="hero-contenido">
+        <p class="hero-etiqueta">Fundación sin ánimo de lucro</p>
+        <h1 class="hero-titulo">Donaciones</h1>
+        <p class="hero-slogan">
+          La vocación de nuestro voluntarios y la participación activa de nuestra comunidad en los eventos realizados, nos han permitido alcanzar la magnitud de animales rescatados y adoptados, siendo un incremento constante con el tiempo.
+        </p>
+        <div class="hero-acciones">
+          <a href="#Contribuye" class="btn btn-secundario">Contribuye</a>
+        </div>
+      </div>
+      <div class="hero-imagen">
+        <!-- Imagen ilustrativa, se mostrará con CSS -->
+        <img src="assets/img/Contribuye.jpg" alt="Manos haciendo donación en caja" />
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-fundacion">Fundación Patitas Felices</p>
+    <p class="footer-copy">© 2025 - Todos los derechos reservados</p>
+    <p class="footer-contacto">contacto@patitasfelices.org</p>
+    <p class="footer-dev">
+      Desarrollado por <a href="#" target="_blank" rel="noopener">Equipo Web Patitas</a>
+    </p>
+  </footer>
+</body>
+</html>
